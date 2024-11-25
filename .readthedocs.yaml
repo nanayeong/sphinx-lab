@@ -1,0 +1,12 @@
+version: 2
+
+# Sphinx 설정 파일의 경로를 지정
+sphinx:
+  configuration: source/conf.py
+
+# Python 환경 설정
+python:
+  version: 3.8
+  install:
+    - requirements: requirements.txt
+ 
